@@ -10,9 +10,10 @@ Mie scattering derivations:
 
 [[2]](https://api.semanticscholar.org/CorpusID:124119456) Thovsen KB. Evaluation of Mie scatter approximation formulas for the scattering of infrared light at biological cells; 2013
 
-[3](https://www.sciencedirect.com/science/article/pii/0039602888907765) Kim YS, Leung PT, George TF. Classical decay rates for molecules in the presence of a spherical surface: A complete treatment. Surface Science. 1988;195(1):1-14
+[[3]](https://www.sciencedirect.com/science/article/pii/0039602888907765) Kim YS, Leung PT, George TF. Classical decay rates for molecules in the presence of a spherical surface: A complete treatment. Surface Science. 1988;195(1):1-14
 
 Decay rate derivations:
 
-[3](https://www.sciencedirect.com/science/article/pii/0039602888907765) above and
-[4](https://link.aps.org/doi/10.1103/PhysRevB.76.115123) Mertens H, Koenderink AF, Polman A. Plasmon-enhanced luminescence near noble-metal nanospheres: Comparison of exact theory and an improved Gersten and Nitzan model. Phys Rev B. 2007 Sep;76:115123
+[[3]](https://www.sciencedirect.com/science/article/pii/0039602888907765) above and
+
+[[4]](https://link.aps.org/doi/10.1103/PhysRevB.76.115123) Mertens H, Koenderink AF, Polman A. Plasmon-enhanced luminescence near noble-metal nanospheres: Comparison of exact theory and an improved Gersten and Nitzan model. Phys Rev B. 2007 Sep;76:115123
