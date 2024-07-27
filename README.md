@@ -3,6 +3,7 @@
 This project explores the evolution of two level systems (TLS) with permanent dipole moments (PDM) in electric fields enhanced by spherical nanoparticles.
 
 Refractive index data:
+
 [1](https://pubs.acs.org/doi/10.1021/ph5004237) McPeak KM, Jayanti SV, Kress SJP, Meyer S, Iotti S, Rossinelli A, et al. Plasmonic films can easily be better: Rules and recipes. ACS Photonics 2. 2015:326-33
 
 Mie scattering derivations:
