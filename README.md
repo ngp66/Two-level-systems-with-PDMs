@@ -16,4 +16,4 @@ Decay rate derivations:
 
 [[3]](https://www.sciencedirect.com/science/article/pii/0039602888907765) above and
 
-[[4]](https://link.aps.org/doi/10.1103/PhysRevB.76.115123) Mertens H, Koenderink AF, Polman A. Plasmon-enhanced luminescence near noble-metal nanospheres: Comparison of exact theory and an improved Gersten and Nitzan model. Phys Rev B. 2007 Sep;76:115123
+[[4]](https://link.aps.org/doi/10.1103/PhysRevB.76.115123) Mertens H, Koenderink AF, Polman A. Plasmon-enhanced luminescence near noble-metal nanospheres: Comparison of exact theory and an improved Gersten and Nitzan model. Phys Rev B. 2007;76:115123
