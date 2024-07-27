@@ -2,6 +2,7 @@
 
 This project explores the evolution of two level systems (TLS) with permanent dipole moments (PDM) in electric fields enhanced by spherical nanoparticles with the aim to achieve a coherent response. To achieve that, the field decay rates and enhancement by spherical nanoparticles are calculated by following the Mie scattering formalism. The evolution of the TLS populations for systems positioned near the hotspots of the nanosphere is determined by using the Lindblad Master equation and a coherent response is found for parameters where the rabi frequency becomes nearly constant for certain position ranges. 
 
+### Important references
 #### Refractive index data:
 
 [[1]](https://pubs.acs.org/doi/10.1021/ph5004237) McPeak KM, Jayanti SV, Kress SJP, Meyer S, Iotti S, Rossinelli A, et al. Plasmonic films can easily be better: Rules and recipes. ACS Photonics 2. 2015:326-33
