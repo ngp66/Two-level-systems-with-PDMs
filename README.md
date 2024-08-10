@@ -2,7 +2,7 @@
 
 This project explores the evolution of two level systems (TLS) with permanent dipole moments (PDM) in electric fields enhanced by spherical nanoparticles with the aim to achieve a coherent response. To do that, the field decay rates and enhancement by spherical nanoparticles are calculated by following the Mie scattering formalism. The evolution of the TLS populations for systems positioned near the hotspots of the nanosphere is determined by using the Lindblad Master equation and a coherent response is found for parameters where the Rabi frequency becomes nearly constant for certain position ranges. 
 
-<img src="https://github.com/user-attachments/assets/187d6f96-ed11-40df-8c27-d73929264e04" alt="field enhancement" width="400"/> <img src="https://github.com/user-attachments/assets/0c4d1edb-52a6-4735-a9c7-f55b7ffd27ca" alt="rabi frequency" width="400"/>
+<img src="https://github.com/user-attachments/assets/187d6f96-ed11-40df-8c27-d73929264e04" alt="field enhancement" width="400"/> <img src="https://github.com/user-attachments/assets/0c4d1edb-52a6-4735-a9c7-f55b7ffd27ca" alt="rabi frequency" width="300"/>
 ### Important references
 #### Refractive index data:
 
