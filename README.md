@@ -6,7 +6,7 @@ The code calculates and visualises the field enhancement by spherical nanopartic
 
   <img src="https://github.com/user-attachments/assets/187d6f96-ed11-40df-8c27-d73929264e04" alt="field enhancement" width="400"/>       <img src="https://github.com/user-attachments/assets/0c4d1edb-52a6-4735-a9c7-f55b7ffd27ca" alt="rabi frequency" width="350"/>
   
-When arrays of TLS are positioned near the peak of the Rabi frequency vs distance plot, they can sustain coherence over the order of 0.01 ns. This allows for the TLS to be separated by a nanometer (or more), lifting some of the required experimental precision for such systems. 
+When arrays of TLS are positioned near the peak of the Rabi frequency vs distance plot, they can sustain coherence over the order of 0.01 ns. This allows for a coherent response even when the TLS to be separated by a nanometer, lifting some of the required experimental precision for such systems. 
 
 <img src="https://github.com/user-attachments/assets/75bb6162-2577-487d-ba42-8b280b7a246b" alt="evolution with PDM" width="800"/>
 
