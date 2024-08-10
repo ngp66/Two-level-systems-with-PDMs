@@ -8,7 +8,8 @@ The code calculates and visualises the field enhancement by spherical nanopartic
   
 When arrays of TLS are positioned near the peak of the Rabi frequency vs distance plot, they can sustain coherence over the order of 0.01 ns. This allows for the TLS to be separated by a nanometer (or more), lifting some of the required experimental precision for such systems. 
 
-<img src="https://github.com/user-attachments/assets/75bb6162-2577-487d-ba42-8b280b7a246b" alt="evolution with PDM" width="600"/>
+<img src="https://github.com/user-attachments/assets/75bb6162-2577-487d-ba42-8b280b7a246b" alt="evolution with PDM" width="800"/>
+
 ### Important references
 #### Refractive index data:
 
