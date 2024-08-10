@@ -4,6 +4,7 @@ This project explores the evolution of two level systems (TLS) with permanent di
 
 ![static_field_enhancement_r_45 0](https://github.com/user-attachments/assets/187d6f96-ed11-40df-8c27-d73929264e04)
 
+<img src="[drawing.jpg](https://github.com/user-attachments/assets/187d6f96-ed11-40df-8c27-d73929264e04)" alt="drawing" width="200"/>
 ### Important references
 #### Refractive index data:
 
