@@ -11,7 +11,7 @@ fig = plt.figure(figsize=(48.75 * cm, 35.75 * cm))
 gs = gridspec.GridSpec(2, 5)
 
 # Define a 2-row, 3-column grid
-gs = gridspec.GridSpec(2, 7, width_ratios=[1, 1, 1, 1, 1, 1, 1], height_ratios=[0.4,1],hspace=0.93,wspace=0.6)
+gs = gridspec.GridSpec(2, 7, width_ratios=[1, 1, 1, 1, 1, 1, 1], height_ratios=[0.4,1],hspace=0.87,wspace=0.6)
 
 # Top subplot: centered in the middle column
 ax1 = fig.add_subplot(gs[0, 1:6])  # Top, middle column
@@ -20,78 +20,71 @@ ax1 = fig.add_subplot(gs[0, 1:6])  # Top, middle column
 ax2 = fig.add_subplot(gs[1, 0:3])  # Bottom-left
 ax3 = fig.add_subplot(gs[1, 4:7])  # Bottom-right
 
-
-# Shrink width to 0.5 of original and center it horizontally in the grid cell
-# box = ax2.get_position()
-# ax2.set_position([box.x0, box.y0, box.width * 0.95, box.height * 0.95])
-# box = ax3.get_position()
-# ax3.set_position([box.x0, box.y0, box.width * 0.95, box.height * 0.95])
-
 ax=[ax1,ax2,ax3]
 
 # plot data
 for q in range(4):
-    ax[1].plot(r_arr4, omega4[q]*1e-12, label=f'{st1} = {E0s4[q]}', color=col[q], ls='solid', linewidth=7.0)
+    ax[1].plot(r_arr4, omega4[q]*1e-12, label=f'{E0s4[q]}', color=col[q], ls='solid', linewidth=7.0)
     ax[1].plot(r_arr4, omeganp4[q]*1e-12, color=col[q], ls='--', linewidth=7.0)
-
-# create symbolic legend lines for 'PDM' and 'No PDM'
-pdm_line = Line2D([0], [0], color='gray', linestyle='solid', linewidth=7.0, label='PDM')
-no_pdm_line = Line2D([0], [0], color='gray', linestyle='--', linewidth=7.0, label='No PDM',dashes=(1.8, 0.7))
 
 # get data line handles and labels
 data_handles, data_labels = ax[1].get_legend_handles_labels()
 
 # combine handles: first symbolic lines, then data lines
-combined_handles = [pdm_line, no_pdm_line] + data_handles
-combined_labels = ['PDM', 'No PDM'] + data_labels
+combined_handles = data_handles
+combined_labels = data_labels
 
 # formatting legend
-ncol = max(len(combined_labels) // 2, 3)  # at least 3 cols for better spacing
+ncol = max(len(combined_labels) // 2, 4)  # at least 4 cols for better spacing
 ax[1].legend(
     handles=combined_handles,
     labels=combined_labels,
     fontsize=33.42,
     loc='upper center',
-    bbox_to_anchor=(0.46, 1.385),  # legend above plot
+    bbox_to_anchor=(0.46, 1.33),  # legend above plot
     ncol=ncol,
     borderaxespad=0,
     columnspacing=0.4,
     handlelength=1.0,
     handletextpad=0.15,
     frameon=True,
-    edgecolor='gray')
+    edgecolor='gray',
+    title=f'Field enhancement $E_0$', 
+    title_fontsize=33.42)
 
 offset_text_obj = ax[1].yaxis.get_offset_text()
 offset_text_obj.set_fontsize(34)
 ax[1].set_xlim(left=45, right=90)
 
 st = '$d_{ii}$' #used for plot labels
-lss = ['--', 'solid', 'solid', 'solid', 'solid', 'solid'] 
+lss = ['--','solid', 'solid', 'solid', 'solid', 'solid'] 
 col = ['#d7191c','#d7191c','#f68013', '#fee090', '#abd9e9', '#2c7bb6']
 
 # plot Rabi frequency as a function of distance from nanosphere for all values of dperm
-ax[2].plot(r_arr4, omega8[0]*1e-12, label = f'$\Delta$d = {d_ii_4[0]}', color = col[0], ls = lss[0], linewidth = 7.0, dashes=(1.8, 0.7))
+ax[2].plot(r_arr4, omega8[0]*1e-12, label = f'{d_ii_4[0]}', color = col[0], ls = lss[0], linewidth = 7.0, dashes=(1.8, 0.7))
 for q in range(1,6):
-    ax[2].plot(r_arr4, omega8[q]*1e-12, label = f'$\Delta$d = {d_ii_4[q]}', color = col[q], ls = lss[q], linewidth = 7.0)
+    ax[2].plot(r_arr4, omega8[q]*1e-12, label = f'{d_ii_4[q]}', color = col[q], ls = lss[q], linewidth = 7.0)
 
 # get solid line handles and labels (data lines)
 data_handles, data_labels = ax[2].get_legend_handles_labels()
 
 # legend formatting
-ncol = max(len(combined_labels) // 2, 3)  # Ensure at least 3 cols for better spacing
+ncol = max(len(combined_labels) // 2, 6)  # Ensure at least 3 cols for better spacing
 ax[2].legend(
     handles=data_handles,
     labels=data_labels,
     fontsize=33.42,
     loc='upper center',
-    bbox_to_anchor=(0.46, 1.385),  # Center above plot
+    bbox_to_anchor=(0.46, 1.33),  # Center above plot
     ncol=ncol,
     borderaxespad=0,
     columnspacing=0.4,
     handlelength=1.0,
     handletextpad=0.15,
     frameon=True,
-    edgecolor='gray')
+    edgecolor='gray',
+    title=f'Permanent dipole moment $\Delta$d', 
+    title_fontsize=33.42)
 
 offset_text_obj = ax[2].yaxis.get_offset_text()
 offset_text_obj.set_fontsize(34)
@@ -127,8 +120,8 @@ kappa_z = g_z/w_c
 om_no_pdm = g_x
 om_pdm = 2*g_x*sp.jv(1, kappa_z)/kappa_z
 om_pdm[0] = 0.0
-ax[0].plot(E0*1e-11/5.14220675112,om_pdm*1e-12,label='with PDM',linewidth=7.0, color = 'gray', linestyle = 'solid', zorder=1)
-ax[0].plot(E0*1e-11/5.14220675112,om_no_pdm*1e-12,label='without PDM',linewidth=7.0, color = 'gray', linestyle = '--', zorder=0)
+ax[0].plot(E0*1e-11/5.14220675112,om_pdm*1e-12,label='PDM',linewidth=7.0, color = 'gray', linestyle = 'solid', zorder=1)
+ax[0].plot(E0*1e-11/5.14220675112,om_no_pdm*1e-12,label='No PDM',linewidth=7.0, color = 'gray', linestyle = '--', zorder=0)
 ax[0].set_xlabel('E$_0$ [a.u.]', fontsize=34)
 ax[0].set_ylabel('$\Omega$ [THz]', fontsize=34)
 ax[0].minorticks_on()
@@ -146,8 +139,8 @@ offset_text_obj.set_fontsize(32)
 ax[0].legend(
     fontsize=33,
     loc='upper center',
-    bbox_to_anchor=(0.5, 1.11), 
-    ncol=1,                      
+    bbox_to_anchor=(0.5, 1.6), 
+    ncol=2,                      
     frameon=True,
     edgecolor='gray')
 ax[0].set_xticks([0.0,0.005,0.01,0.015,0.02])
