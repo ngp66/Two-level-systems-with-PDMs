@@ -1,3 +1,5 @@
+Repository containing all the code used for generating the results in Petkova N, Gladysz P, Slowik, K (2025). Permanent dipole moments improve quantum coherence near plasmonic structures. Optica Open. Preprint. https://doi.org/10.1364/opticaopen.29958914.v1
+
 # Two-level-systems-with-PDMs
 
 This project explores the possibility to achieve a coherent evolution of two level systems (TLS) with permanent dipole moments (PDMs) in electric fields enhanced by spherical nanoparticles. The field decay rates and enhancements by spherical nanoparticles are calculated by following the Mie scattering formalism. The evolution of the TLS populations for systems positioned near the hotspots of the nanosphere is determined by using the Lindblad Master equation and a coherent response is found for parameters where the Rabi frequency becomes nearly constant for certain position ranges.
