@@ -10,7 +10,7 @@ This proof-of-concept project shows how two-level systems with permanent dipole 
 
 [[1]](https://pubs.acs.org/doi/10.1021/ph5004237) McPeak KM, Jayanti SV, Kress SJP, Meyer S, Iotti S, Rossinelli A, et al. Plasmonic films can easily be better: Rules and recipes. ACS Photonics 2. 2015:326-33
 
-#### Rabu frequency and decay rate modifications due to permanent dipole moments:
+#### Rabi frequency and decay rate modifications due to permanent dipole moments:
 [[2]](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.111.053704) Gładysz P, Słowik, K. Light interactions with polar quantum systems. Phys. Rev. A 111, 053704 (2025).
 
 #### Mie scattering of nanospheres:
