@@ -3,7 +3,7 @@ Petkova N, Gladysz P, Slowik, K (2025). Permanent dipole moments improve quantum
 
 # Two-level-systems-with-PDMs
 
-This proof-of-principle project shows how two-level systems with permanent dipole moments can be used to achieve coherent emission near light-enhancing nanostructures. The field decay rates and enhancements by spherical nanoparticles are calculated by following the Mie scattering formalism. The evolution of the TLS populations for systems positioned near the hotspots of the nanosphere is determined by using the Lindblad Master equation and a coherent response is found for parameters where the Rabi frequency becomes nearly constant for certain position ranges.
+This proof-of-concept project shows how two-level systems with permanent dipole moments can be used to achieve coherent emission near light-enhancing nanostructures. The field decay rates and enhancements by spherical nanoparticles are calculated by following the Mie scattering formalism. The evolution of the TLS populations for systems positioned near the hotspots of the nanosphere is determined by using the Lindblad Master equation and a coherent response is found for parameters where the Rabi frequency becomes nearly constant for certain position ranges.
 
 ### Primary references
 #### Refractive index data:
