@@ -1,5 +1,5 @@
 Repository containing all the code used for generating the results in 
-Petkova N, Gladysz P, Slowik, K (2025). Permanent dipole moments improve quantum coherence near plasmonic structures. Optica Open. Preprint. https://doi.org/10.1364/opticaopen.29958914.v1
+Petkova N, Gladysz P, Slowik, K (2025). Permanent dipole moments improve quantum coherence near plasmonic structures. Optics Letters. [https://doi.org/10.1364/opticaopen.29958914.v1](https://doi.org/10.1364/OL.576863)
 
 # Two-level-systems-with-PDMs
 
